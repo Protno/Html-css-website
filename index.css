@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+section {
+    display: flex;
+}
+
+.image2 {
+
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.half-width {
+    padding-left: 8%;
+    width: 50%;
+}
+
+.half-width img {
+    margin-top: 10%;
+    width: 80%;
+}
+
+.half-width p {
+    line-height: 25px;
+
+}
+
+
+.orange-color {
+    color: rgb(255 0 102);
+}
+
+#button {
+    background-color: rgb(255 0 102);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
