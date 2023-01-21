@@ -8,17 +8,25 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-top: 100px;
 }
 
 .image2 {
 
     background-repeat: no-repeat;
-    overflow: hidden;
+    position: absolute;
+}
+
+img.image2 {
+    left: -33px;
+    margin: -264px;
+    margin-bottom: -15px;
+    width: 49%;
 }
 
 .half-width {
@@ -52,4 +60,41 @@ section {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
+}
+
+.dream-big {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiences-section {
+    margin-top: 170px;
+}
+
+.experiences-section {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+
+    margin-left: 20px;
+    width: 40%;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 6px solid rgb(255 0 102);
+}
+
+#full-stack {
+    border-left: 6px solid hsl(6deg 95% 66%);
+
 }
